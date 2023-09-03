@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;500;600;700&family=Inter:wght@300;400&family=Kanit:ital,wght@0,200;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <p>20% de descuento en todos los productos</p>
+        <div class="fondo-azul">
+            <img src="img/Logo.png" alt="">
+            <h1 class="blanco" >NOMBRE TIENDA</h1>
+        </div>
+        
+        <nav>
+            <a href="#">contacto</a>
+            <a href="#">registrarme</a>
+            <a href="#">Ingresar</a>
+        </nav>
+    </header>
+
+    <form action="#" method="POST">
+        <h1 class="centro blanco">Añadí tu super!</h1>
+        <p class="centro blanco">Agregá tu personaje favorito completando las opciones</p>
+        <div class="contenedor">
+            <section>
+                <label for="nombre" class="blanco">Nombre</label>
+                <input class="input blanco" type="text" id="nombre" name="nombre" required>
+
+                <label for="fecha" class="blanco">Fecha</label>
+                <input class="input" type="date" id="fecha" name="fecha" placeholder="dd/mm/aaaaa" required>
+
+                <textarea id="mensaje" name="mensaje" rows="13" placeholder="Descripción"></textarea>
+            </section>
+
+        
+            <section>
+                <label for="select" class="blanco">Especie</label>
+                <select class="input" name="select">
+                    <option value="Especie">Especie</option>
+                    <option value="value1">Value 1</option>
+                    <option value="value2" selected>Value 2</option>
+                    <option value="value3">Value 3</option>
+                </select>
+                
+                <label for="archivo" class="blanco">Agregar Foto:</label>
+                <input class="input foto" title="No se eligio archivo" type="file" name="archivo" accept=".pdf, .doc, .jpg, .png"  required>
+                
+                <p class="blanco">Poderes</p>
+                <div class="checkbox">
+                    <label class="box blanco" ><input type="checkbox" name="opciones[]" value="opcion1">Volar</label>
+                    <label class="box blanco" ><input type="checkbox" name="opciones[]" value="opcion2">Superinteligencia</label>
+                    <label class="box blanco" ><input type="checkbox" name="opciones[]" value="opcion3">Vista de rayo laser</label>
+                    <label class="box blanco" ><input type="checkbox" name="opciones[]" value="opcion3">Billetera gorda</label>
+                </div>
+                
+                <div class="horizontal-linea"></div>
+
+                <p class="blanco">Tipo de personaje</p>
+                <div class="checkbox">
+                    <label class="box blanco" ><input type="radio" name="color" value="rojo"> Héroe/Heroina</label>
+                    <label class="box blanco"><input type="radio" name="color" value="rojo"> Villano/Villana</label>
+                </div>
+                
+            </section>
+        </div>
+        
+        <div class="centro"><input class="anadir" type="submit" value="Añadir"></div>
+        
+    </form>
+
+    <footer>
+        Todos los derechos reservados a FRONT END 1 
+    </footer>
+</body>
+</html>

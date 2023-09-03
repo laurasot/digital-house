@@ -1,0 +1,125 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav{
+    background-color: #001d2d;
+    height: 30px;
+    text-align: end;
+
+}
+
+header a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+header p{
+    position:sticky;
+    background-color: #1cd1b0;
+    height: 30px;
+    margin: 0px 0px;
+    padding-left: 10px;
+}
+.fondo-azul{
+    display: flex;
+    background-color: #00669f;
+    align-items: center;
+}
+.contenedor{
+    margin-bottom: 60px;
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+} 
+
+.arriba {
+    width: 300px;
+    height: 194px;
+    border-radius: 13% 13% 0 0;
+    position: relative;
+    top: -33px;
+}
+
+.redondo{
+    position: relative;
+    bottom:  75px;
+}
+
+section{
+    height: 600px;
+    width: 300px;
+    border-radius: 13% 13% 0 0;
+    background-color: #F3F3F3;
+    margin: 30px 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    position: relative;
+    text-align: center;
+}
+
+section a{
+    background-color: #00669f;
+    color: white;
+    padding: 9px 15px;
+    text-decoration: none;
+    position: relative;
+    bottom: 30px;
+}
+section h2{
+    position: relative;
+    margin-top: 0px;
+    bottom: 30px;
+}
+section p{
+    position: relative;
+    margin: 20px auto;
+    width: 230px;
+    height: 150px;
+    font-weight: 400;
+    bottom: 30px;
+}
+
+#harley{
+    width: 128px;
+    border-radius: 60%;
+}
+
+footer{
+    background-color: #00669f;
+    height: 50px;
+    padding-top:20px ;
+    padding-left: 20px;
+    color: white;
+    text-align: center;
+}
+#boton{
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #00669f;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 0%;
+    margin-right: 4%;
+    border: none;
+}
+
+#boton:hover{
+    background-color: #001d2d;
+    color: white;
+}
+
+
+i{
+    position: relative;
+    color: red;
+    z-index: 30;
+    font-size: 25px;
+    right: 120px;
+}
+
